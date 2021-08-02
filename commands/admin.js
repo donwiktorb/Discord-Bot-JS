@@ -26,11 +26,6 @@ Commands.Add('setup', async (msg, args) => {
     Functions.Execute('setup', msg, args);
 });
 
-Commands.Add('reload', async (msg, args) => {
-    if (msg.author.id == '381100739889594368')
-        Data = require("../data/data.json");
-});
-
 Commands.Add('mute', async (msg, args) => {
     Functions.Execute('mute', msg, args);
 
