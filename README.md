@@ -8,11 +8,11 @@ This was some type of speedrun so putting it on github for people that would lik
 How to setup video [Youtube](https://youtu.be/tHNbnjVfKMo).
 
 ### Links
-[Discord.js](https://discord.js.org/)
-[ffmpeg-static](https://github.com/eugeneware/ffmpeg-static)
-[opusscript (i think it's this one)](https://github.com/abalabahaha/opusscript)
-[request](https://github.com/request/request)
-[ytdl-core](https://github.com/fent/node-ytdl-core)
+- [Discord.js](https://discord.js.org/)
+- [ffmpeg-static](https://github.com/eugeneware/ffmpeg-static)
+- [opusscript (i think it's this one)](https://github.com/abalabahaha/opusscript)
+- [request](https://github.com/request/request)
+- [ytdl-core](https://github.com/fent/node-ytdl-core)
 
 ### BOT SETUP
 - Next you have to setup discord.js bot, download and install [Node js](https://nodejs.org/en/download/)
