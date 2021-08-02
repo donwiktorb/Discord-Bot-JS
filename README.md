@@ -17,7 +17,7 @@ How to setup video [Youtube](https://youtu.be/tHNbnjVfKMo).
     - Edit data/config.js token with bot token
     - Put all files in some directory ex. /home/bot/ then execute these in console like cmd or something
      ```
-        cd BOT DIRECTORY example. /home/bot/ OR cd D:\repo
+        cd BOT DIRECTORY /home/bot/ OR cd D:\bot for example.
         npm install
         node .
      ```
@@ -25,22 +25,22 @@ How to setup video [Youtube](https://youtu.be/tHNbnjVfKMo).
 
 ### Next
 - Do what you want with it.
-- adding command example.
+
+- Adding command example.
 ```
 Commands.Add('test', async (msg, args) => {
     msg.reply("test");
 });
 ```
 
-- adding function example.
+- Adding function example.
 ```
 Functions.Add('test', async (msg) => {
     return 'hi';
 });
-
 ```
 
-- calling function 
+- Calling function 
 ```
 Commands.Add('test', async (msg, args) => {
     let test = await Functions.Execute('test', msg);
@@ -48,9 +48,8 @@ Commands.Add('test', async (msg, args) => {
 });
 ```
 
-- create threads
+- Create threads
 ```
-
 Functions.CreateThread(48, async () => {
     // Request example
     let data = await Functions.Execute('createRequest', 'http://localhost:30120/players.json');
@@ -58,5 +57,4 @@ Functions.CreateThread(48, async () => {
         return client.user.setActivity("OFF")
     client.user.setActivity(`WL-OFF: ${data.length}`, { type: 'WATCHING' })
 });
-
 ```
