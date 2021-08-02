@@ -47,7 +47,7 @@ Commands.Add('clearwarns', async (msg, args) => {
 });
 
 Commands.Add('bladd', async (msg, args) => {
-    if (msg.author.id == '381100739889594368' || msg.author.id == '450752274931908611') {
+    if (msg.author.id == 'CHANGE ME') {
         if (args[0]) {
             let content = args.join(' ');
             Misc.blacklist.push(content);
