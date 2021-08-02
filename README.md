@@ -5,8 +5,6 @@ This was some type of speedrun so putting it on github for people that would lik
 
 ➡️ [Join discord here](https://discord.gg/txsweyv)
 
-How to setup video [Youtube](https://youtu.be/tHNbnjVfKMo).
-
 ### Links
 - [Discord.js](https://discord.js.org/)
 - [ffmpeg-static](https://github.com/eugeneware/ffmpeg-static)
