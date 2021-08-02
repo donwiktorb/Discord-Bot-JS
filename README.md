@@ -20,6 +20,7 @@ This was some type of speedrun so putting it on github for people that would lik
   - Installing bot
     - Create bot on [Discord Dev](https://discord.com/developers/applications) by creating new application (copy client id and save it for later) and clicking add bot, then copy the token
     - Edit data/config.js token with bot token
+    - also edit commands/admin.js line 50 with your discord id if you want bladd command to work
     - Put all files in some directory ex. /home/bot/ then execute these in console like cmd or something
      ```
         cd BOT DIRECTORY /home/bot/ OR cd D:\bot for example.
