@@ -31,7 +31,7 @@ How to setup video [Youtube](https://youtu.be/tHNbnjVfKMo).
     - Invite bot to your discord by https://discord.com/oauth2/authorize?client_id=THEBOTCLIENTIDEDITTHIS&scope=bot&permissions=8
 
 ### Next
-- Do what you want with it.
+- Do what you want with it .
 
 - Adding command example.
 ```
