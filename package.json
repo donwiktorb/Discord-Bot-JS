@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "ffmpeg-static": "^4.4.0",
+    "opusscript": "^0.0.8",
+    "request": "^2.88.2",
+    "ytdl-core": "^4.9.0"
+  }
+}

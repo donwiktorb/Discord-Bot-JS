@@ -1,0 +1,27 @@
+{
+    "verify": {
+
+    },
+    "proposition": {
+    },
+    "autorole": [
+        
+    ],
+    "logs": {
+        "deleted": {
+           
+        },
+        "updated": {
+           
+        },
+        "memberjoined": {
+            
+        },
+        "memberleft": {
+            
+        },
+        "dm": ""
+    },
+    "counter": {
+    }
+}
