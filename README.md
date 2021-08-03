@@ -30,8 +30,8 @@ This was some type of speedrun so putting it on github for people that would lik
     - Invite bot to your discord by https://discord.com/oauth2/authorize?client_id=THEBOTCLIENTIDEDITTHIS&scope=bot&permissions=8
 
 - How to make music working
-- [Click here](https://console.developers.google.com/apis/enabled?hl=pl) and generate a key for youtube api
-- Then change the line 43, 54, 60 with your youtube api key and you are done.
+    - [Click here](https://console.developers.google.com/apis/enabled?hl=pl) and generate a key for youtube api
+    - Then change the line 43, 54, 60 with your youtube api key and you are done.
 
 ### Next
 - Do what you want with it .

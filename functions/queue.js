@@ -40,6 +40,7 @@ Functions.Add('addqueue', (msg, data) => {
 Functions.Add('addcustomqueue', async (msg, data) => {
 
     if (data.type == 'playlist') {
+        
         let reqLink = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=25&playlistId=${data.query}&key=CHANGEME`
         let link = await Functions.Execute('createRequest', reqLink);
 
