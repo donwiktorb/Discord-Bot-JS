@@ -40,7 +40,7 @@ Functions.Add('addqueue', (msg, data) => {
 Functions.Add('addcustomqueue', async (msg, data) => {
 
     if (data.type == 'playlist') {
-        let reqLink = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=25&playlistId=${data.query}&key=AIzaSyC8IpPbtvZpBelxfdLXvOptyKpBa7NiJG8`
+        let reqLink = `https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=25&playlistId=${data.query}&key=CHANGEME`
         let link = await Functions.Execute('createRequest', reqLink);
 
         for (let item in link.items) {
@@ -51,13 +51,13 @@ Functions.Add('addcustomqueue', async (msg, data) => {
             await Functions.Execute('addqueue', msg, data);
         }
     }else if (data.type == 'name') {
-        let reqLink = `https://www.googleapis.com/youtube/v3/search?q=${data.query}&part=snippet&regionCode=PL&relevanceLanguage=pl&type=video&key=AIzaSyC8IpPbtvZpBelxfdLXvOptyKpBa7NiJG8`
+        let reqLink = `https://www.googleapis.com/youtube/v3/search?q=${data.query}&part=snippet&regionCode=PL&relevanceLanguage=pl&type=video&key=CHANGEME`
         let link = await Functions.Execute('createRequest', reqLink);
         let newlink = "https://www.youtube.com/watch?v="+link.items[0].id.videoId;
         let title = link.items[0].snippet.title
         await Functions.Execute('addqueue', msg, {"link":newlink, "title":title});
     } else {
-        let reqLink = `https://www.googleapis.com/youtube/v3/search?q=${data.query}&part=snippet&regionCode=PL&relevanceLanguage=pl&type=video&key=AIzaSyC8IpPbtvZpBelxfdLXvOptyKpBa7NiJG8`
+        let reqLink = `https://www.googleapis.com/youtube/v3/search?q=${data.query}&part=snippet&regionCode=PL&relevanceLanguage=pl&type=video&key=CHANGEME`
         let link = await Functions.Execute('createRequest', reqLink);
         let newlink = "https://www.youtube.com/watch?v="+link.items[0].id.videoId;
         let title = link.items[0].snippet.title
