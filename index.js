@@ -5,7 +5,7 @@ const Init = require("./init.js");
 client = new Discord.Client();
 require("./common.js");
 
-//client
+//cl
 
 //ready
 client.on('ready', () => {
